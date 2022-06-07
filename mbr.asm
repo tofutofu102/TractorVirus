@@ -18,7 +18,7 @@ next:
     cmp al, 0
     je done
     call print_char
-    jnc si
+    inc si
     jmp next
 
 done:
